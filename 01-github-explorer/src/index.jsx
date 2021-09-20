@@ -1,12 +1,2 @@
 import React from 'react'
-
-function app() {
-    return <h1>Hello World!</h1>
-}
-
-
-const user = {
-    name: Gustavo,
-}
-
-console.log(user.adress?.street)
+import { App } from './App'
