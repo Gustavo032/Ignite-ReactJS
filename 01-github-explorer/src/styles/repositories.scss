@@ -1,3 +1,22 @@
-section ul li {
-    padding: 20px
-};
+section{ 
+    ul li {
+        padding: 20px;
+        border-bottom: 0.1em springgreen dotted;
+        a {
+            color: #03c324
+        };
+        strong{
+            color: lime
+        };
+
+    };
+    ul li ::selection{
+        background-color: rgb(21, 189, 26);
+        color: #030303
+    };
+
+    ul :last-child{
+        border-bottom: springgreen solid 0.1em;
+    }
+    
+}

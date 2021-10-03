@@ -9,13 +9,16 @@
         background: #303030;
         color: #fff;
         
-        h1   {
-            color: #ff0000;
+        h1 {
+            color: springgreen;
             margin: 0 auto;
-            text-align: center
+            text-align: center;
+            border-bottom: solid 0.1em springgreen
         };
+
 
         #root div { 
             text-align: center;
-        }
+        };
+        
     }
